@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url("./timer_bg.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Fugaz One', cursive;
+}
+h1{
+    font-weight: normal;
+    font-size: 5rem;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -120px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size:100px;
+    
+}
+#fc{
+    margin-top: -290px;
+    margin-left:110px
+}
+#fd{
+    margin-top: -290px;
+    margin-left:200px
+}
+.per{
+    color:rgb(255, 255, 255);
+}
+.countdown-container{
+    margin-top: -2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.days-c{
+    display: inline;
+}
+.days-c p{
+    font-weight: bold;
+    font-size: 7rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.days-c span{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
